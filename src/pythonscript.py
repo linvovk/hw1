@@ -1,4 +1,4 @@
-mport random
+import random
 from datetime import datetime, timedelta
 
 def generate_transactions(num=20):
@@ -74,3 +74,4 @@ if __name__ == '__main__':
 
     for status, count in stats.items():
         print(f'{status}: {count}')
+
