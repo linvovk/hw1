@@ -19,7 +19,6 @@ def generate_transactions(num=20):
     return sorted(transactions, key=lambda x: x['time'])
 
 def fraud_detection(transactions, limit=10000, freq=5, bad=['RU', 'CN']):
-    # Обучаем простую ML модель
     X = []
     y = []
     for i in range(50):
